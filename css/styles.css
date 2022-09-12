@@ -625,7 +625,7 @@ margin-right: 30px;
    
 }
 .subscription{
-    display: block;
+   
     margin-left: 93px;
 }
 .subscription-form{
@@ -642,6 +642,7 @@ margin-right: 30px;
     border-radius: 4px;
     padding-left: 16px;
     margin-right: 12px;
+    color: var(--main-white);
     transition: border-color var(--transition-dur-and-func);
 }
 .subscription-input:focus{
@@ -745,6 +746,9 @@ margin-right: 30px;
     transition: fill var(--transition-dur-and-func);
     
 } 
+.modal-close-icon{
+    transition: fill var(--transition-dur-and-func);
+}
 .modal-close-btn:hover  .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon{
      fill: var(--accent-blue-color);
@@ -764,6 +768,9 @@ margin-right: 30px;
 }
 .form-field{
     margin-bottom: 10px;
+}
+.form-fild-textarea{
+    margin-bottom: 20px;
 }
 .form-input-wrapper {
     display: block;
@@ -827,7 +834,8 @@ margin-right: 30px;
 .form-check-field{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .checkbox-icon{
     width: 16px;
